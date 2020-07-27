@@ -88,7 +88,7 @@ public class Hero extends FlyingObject {
         }
     }
 
-    /** 碰撞算法*/
+    /** 碰撞算法*/   // >>>>>>>>>>>>>>>>>>>> ??????????????????>>>>>>>>>>>>>>
     public boolean hit(FlyingObject other){
 
         int x1 = other.x - this.width/2;                    // x min distance
